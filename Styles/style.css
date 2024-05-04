@@ -1,0 +1,35 @@
+:root{
+	--font-family: "Kalam", sans-serif;
+	--color-white: #FFF4E0;
+	--color-light-yellow: #FFBF9B;
+	--color-red: #B46060;
+	--color-black: #4D4D4D;
+}
+body{
+	font-family: var(--font-family);
+	background-color: var(--color-white);
+	color: var(--color-light-yellow);
+	font-size: 26px;
+	font-weight: 700;
+}
+.header{
+	background-color: var(--color-red);
+	padding-top: 25px;
+	padding-bottom: 26px;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+} 
+.nav{
+	display: flex;
+	align-items: center;
+}
+.title{
+	display: flex;
+	font-size: 36px;
+}
+.nav-list{
+	display: flex;
+	justify-content: space-between;
+}
